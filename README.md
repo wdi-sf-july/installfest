@@ -70,8 +70,8 @@ Run `brew doctor` in your Terminal to let you know if the install was successful
 
 You may need to edit your ~/.bashrc to have include the path to homebrew, if `brew doctor` returns any warnings.
 
-```bash
-echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.bash_profile
+```
+bash echo 'export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"' >> ~/.bash_profile
 ```
 
 
@@ -98,8 +98,7 @@ git config --global credential.helper cache
 ###Generate a SSH key for github
 Following the below instructions will allow you to use github on your machine without having to input your login credentials.
 
-* [Generating SSH Keys (via Github.com)](https://help.github.com/articles/generating-ssh-keys) 
-	*	https://help.github.com/articles/generating-ssh-keys
+* [Generating SSH Keys (via Github.com)](https://help.github.com/articles/generating-ssh-keys)
 
 
 ##RVM and Ruby
@@ -148,13 +147,6 @@ sudo apt-get install curl
 ```
 \curl -L https://get.rvm.io | bash -s stable --ruby
 ```
-
-
-###Login Shell preference
-- In terminal go to `Edit -> Profile Preferences`
-- Under `Title and Command` check `Run command as a login shell`
-- Close preferences and restart terminal
-
 
 
 ##rails
